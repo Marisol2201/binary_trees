@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# binary_trees
-A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child
-
-EDISON
-=======
 # 0x1D. C - Binary trees
 
 ## Resources:books:
@@ -89,4 +83,3 @@ What you should learn from this project:
 ## Authors
 * **Marisol Ramirez Henao** - [Marisol2201](https://github.com/Marisol2201)
 * **Edison Esteban Isaza Lopez** - [peluza](https://github.com/peluza)
->>>>>>> master
