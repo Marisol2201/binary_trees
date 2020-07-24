@@ -47,6 +47,19 @@ int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
-binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+
+/*Advanced 19 (100)*/
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+const binary_tree_t *second);
+
+/*Advanced 20 (101)*/
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+void print_tree_level_order(const binary_tree_t *tree, void (*func)(int));
+void print_level(const binary_tree_t *tree, void (*func)(int), int level_no);
+
+/*Advanced 21 (102)*/
+int binary_tree_is_complete(const binary_tree_t *tree);
+int countNodes(const binary_tree_t *tree);
+int checkComplete(const binary_tree_t *tree, int index, int numberNodes);
 
 #endif /* _BINARY_TREES_H_ */
