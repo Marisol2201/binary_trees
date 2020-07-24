@@ -62,4 +62,7 @@ int binary_tree_is_complete(const binary_tree_t *tree);
 int countNodes(const binary_tree_t *tree);
 int checkComplete(const binary_tree_t *tree, int index, int numberNodes);
 
+/*Advanced 22 (103)*/
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+
 #endif /* _BINARY_TREES_H_ */
